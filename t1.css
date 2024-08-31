@@ -1,0 +1,227 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #ffffff;
+    background-image: url(https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg);
+}
+
+.intro-content {
+    max-width: 600px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.intro .wave {
+    display: inline-block;
+    animation: wave-animation 2.5s infinite;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.social-links {
+    margin: 20px 0;
+}
+
+.social-links a {
+    margin-right: 15px;
+}
+
+.social-links img {
+    width: 30px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons .btn {
+    display: inline-block;
+    padding: 8px 16px; /* Reduced padding */
+    margin-right: 8px; /* Reduced margin */
+    background-color: #007BFF;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em; /* Reduced font size */
+}
+
+.buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about {
+    padding: 100px 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+    background-image: url(https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.skills {
+    padding: 100px 50px;
+    background-color: #ffffff;
+    text-align: center;
+    background-image: url(https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg);
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.projects {
+    padding: 100px 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+    background-image: url(https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg);
+}
+
+.project-item {
+    margin-bottom: 40px;
+}
+
+.resume {
+    padding: 100px 50px;
+    background-color: #ffffff;
+    text-align: center;
+    background-image: url(https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg);
+}
+
+.download-resume {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-resume:hover {
+    background-color: #0056b3;
+}
+
+.contact {
+    padding: 100px 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+    background-image: url(https://cdn.vectorstock.com/i/500p/84/65/abstract-white-monochrome-background-vector-32028465.jpg);
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 10px 0;
+}
+
+footer {
+    padding: 20px 50px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
